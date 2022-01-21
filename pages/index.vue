@@ -106,6 +106,8 @@ export default {
       if(!this.firstToken && !this.secondToken) return
       const ft = this.$store.state.tokens.firstToken
       const st = this.$store.state.tokens.secondToken
+      this.finput = ''
+      this.sinput = ''
       this.$store.commit('tokens/setFirstToken',st)
       this.$store.commit('tokens/setSecondToken',ft)
 
