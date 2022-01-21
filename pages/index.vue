@@ -98,7 +98,8 @@ export default {
   watch:{
     finput(n){
       if(!this.firstToken && !this.secondToken) return 
-      this.sinput = (+this.firstToken.price * +n) / +this.secondToken.price
+      let res = (+this.firstToken.price * +n) / +this.secondToken.price
+      this.sinput = res.toFixed(6)
     }
   },
   methods:{

